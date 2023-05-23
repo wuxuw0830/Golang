@@ -1,0 +1,46 @@
+{
+    "USERLOGIN": {
+        "code": 200,
+        "content": "Success",
+        "result": null
+    },
+    "USERINFO": {
+        "code": "200",
+        "content": "Success",
+        "result": {
+            "memberName": "Kelly",
+            "mobileNumber": "0965026589",
+            "isLogin": true,
+            "isBio": false,
+            "totalAmount": 1000000,
+            "creditCardInfo": [
+                {
+                    "cardId": "160025554895",
+                    "cardName": null,
+                    "expiresDate": "10/28"
+                }
+            ],
+            "subAccountInfo": [
+                {
+                    "cardId": "000000000001",
+                    "cardName": "Sub Account 1",
+                    "balance": 5000000,
+                    "backImageUrl": "http://localhost:3001/getImage"
+                },
+                {
+                    "cardId": "000000000001",
+                    "cardName": "Sub Account 1",
+                    "balance": 5000000,
+                    "backImageUrl": "http://localhost:3001/getImage"
+                }
+            ]
+        }
+    },
+    "HomeInfo":{
+        "code": "200",
+        "content": "Success",
+        "result":{
+            
+        }
+    }
+}
