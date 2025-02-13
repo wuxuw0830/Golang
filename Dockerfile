@@ -9,6 +9,7 @@ RUN go get github.com/gin-gonic/gin
 #copy src and db.json file
 COPY src/ ./src/
 COPY src/db.json ./db.json
+COPY src/image/ ./image/
 
 # **compiler index.go**
 RUN go build -o index ./src/index.go
