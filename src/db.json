@@ -1,18 +1,28 @@
 {
-    "USERLOGIN": {
-        "code": 200,
+    "HomeInfo": {
+        "code": "200",
         "content": "Success",
-        "result": null
+        "result": {
+            "infoList": [
+                {
+                    "mobileNumber": "0965026589",
+                    "name": "test1"
+                },
+                {
+                    "mobileNumber": "0905722930",
+                    "name": "test2"
+                },
+                {
+                    "mobileNumber": "0933444555",
+                    "name": "test3"
+                }
+            ]
+        }
     },
     "USERINFO": {
         "code": "200",
         "content": "Success",
         "result": {
-            "memberName": "Kelly",
-            "mobileNumber": "0965026589",
-            "isLogin": true,
-            "isBio": false,
-            "totalAmount": 1000000,
             "creditCardInfo": [
                 {
                     "cardId": "160025554895",
@@ -20,27 +30,30 @@
                     "expiresDate": "10/28"
                 }
             ],
+            "isBio": false,
+            "isLogin": true,
+            "memberName": "Kelly",
+            "mobileNumber": "0965026589",
             "subAccountInfo": [
                 {
-                    "cardId": "000000000001",
-                    "cardName": "Sub Account 1",
+                    "backImageUrl": "http://localhost:3001/getImage",
                     "balance": 5000000,
-                    "backImageUrl": "http://localhost:3001/getImage"
+                    "cardId": "000000000001",
+                    "cardName": "Sub Account 1"
                 },
                 {
-                    "cardId": "000000000001",
-                    "cardName": "Sub Account 1",
+                    "backImageUrl": "http://localhost:3001/getImage",
                     "balance": 5000000,
-                    "backImageUrl": "http://localhost:3001/getImage"
+                    "cardId": "000000000001",
+                    "cardName": "Sub Account 1"
                 }
-            ]
+            ],
+            "totalAmount": 1000000
         }
     },
-    "HomeInfo":{
-        "code": "200",
+    "USERLOGIN": {
+        "code": 200,
         "content": "Success",
-        "result":{
-            
-        }
+        "message": null
     }
 }
