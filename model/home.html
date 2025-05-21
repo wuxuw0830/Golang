@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; }
+        html, body, section { height: 100%; }
+        section { display: flex; align-items: center; justify-content: center; text-align: center; }
+        section h2 { font-size: 2rem; color: white; }
+        section p { font-size: 1.2rem; color: white; }
+        #home { background: #3498db; }
+        #about { background: #2ecc71; }
+        #experience { background: #e74c3c; }
+        nav { position: fixed; top: 0; left: 0; width: 100%; background: #333; padding: 1rem; z-index: 100; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; font-size: 1.2rem; }
+        nav a:hover { text-decoration: underline; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">資訊</a>
+        <a href="#about">介紹</a>
+        <a href="#experience">經歷</a>
+    </nav>
+    <section id="home">
+        <div>
+            <h2>資訊</h2>
+            <p></p>
+        </div>
+    </section>
+    <section id="about">
+        <div>
+            <h2>介紹</h2>
+            <p></p>
+        </div>
+    </section>
+    <section id="experience">
+        <div>
+            <h2>經歷</h2>
+            <p></p>
+        </div>
+    </section>
+</body>
+</html>

@@ -35,7 +35,7 @@ func main() {
 
 	homeInfo := result["HomeInfo"].(map[string]any)
 
-	router.POST("/userLogin", func(c *gin.Context) { c.JSON(3144, userLogin) })
+	router.POST("/userLogin", func(c *gin.Context) { c.JSON(200, userLogin) })
 
 	router.GET("/userInfo", func(c *gin.Context) { c.JSON(200, userInfo) })
 
